@@ -1,0 +1,193 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e8eaf6;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mode-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+body.night-mode {
+  background-color: #333;
+  color: white;
+}
+
+/* About Me Section */
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #1b5e20;
+  color: white;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.profile-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Slideshow Container */
+.slideshow-container {
+  position: relative;
+  max-width: 300px;
+  margin: auto;
+}
+
+.slideshow-image {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.slideshow-image.active {
+  display: block;
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.projects-section h2 {
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1.2rem;
+}
+
+/* Teaching Section */
+.teaching-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.teaching-section h2 {
+  margin-bottom: 20px;
+}
+
+.teaching-section ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.teaching-section ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.teaching-section p {
+  font-size: 1.2rem;
+}
+
+/* Goals Section */
+.goals {
+  background-color: #388e3c;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.goals h2 {
+  margin-bottom: 20px;
+}
+
+.goals ul {
+  list-style: none;
+}
+
+.goals ul li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/* Recent Updates Section */
+.updates {
+  background-color: #4caf50;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.updates h2 {
+  margin-bottom: 20px;
+}
+
+.updates ul {
+  list-style: none;
+}
+
+.updates ul li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
